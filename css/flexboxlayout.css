@@ -76,4 +76,16 @@ footer nav li {
     padding: 1em;
 }
 
+@media screen and (max-width: 30rem) {
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+    }
+    .radiobutton {
+        color: dimgray;
+    }
+}
+
 
