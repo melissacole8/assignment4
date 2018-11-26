@@ -58,6 +58,13 @@ main {
     flex: 1;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+/*    align-items: center;*/
+}
 
 footer {
     display: flex;
