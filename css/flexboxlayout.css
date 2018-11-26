@@ -58,12 +58,16 @@ main {
     flex: 1;
 }
 
-form {
+form p {
     display: flex;
-    flex-direction: column;
-    flex: 1;
-    flex-wrap: wrap;
-/*    align-items: center;*/
+margin-bottom: 1em;
+}
+form select {
+    text-align: center;
+}
+form input, textarea, select {
+    margin: 0 1em;
+    border-radius: 5px;
 }
 
 footer {
