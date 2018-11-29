@@ -45,6 +45,7 @@ header nav li {
 }
 
 
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -58,9 +59,12 @@ main {
     flex: 1;
 }
 
+
+
 form p {
     display: flex;
 margin-bottom: 1em;
+    margin-left: 1em;
 }
 form select {
     text-align: center;
@@ -69,6 +73,28 @@ form input, textarea, select {
     margin: 0 1em;
     border-radius: 5px;
 }
+
+#submit {
+   padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 15px;
+    font-family:serif;
+    color: dimgray;
+}
+/*
+    #submit p:hover {
+    color:darkslategray;
+}
+*/
+
+.radiobutton {
+    padding-left: 20px;
+    color: dimgray;
+}
+
+
 
 footer {
     display: flex;
@@ -87,6 +113,8 @@ footer nav li {
     padding: 1em;
 }
 
+
+
 @media screen and (max-width: 30rem) {
     header,
     main,
@@ -94,9 +122,7 @@ footer nav li {
     form p {
         flex-direction: column;
     }
-    .radiobutton {
-        color: dimgray;
-    }
+   
 }
 
 
